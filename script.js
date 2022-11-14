@@ -5,7 +5,7 @@ class Message{
         this.text=text;
     }
 
-    toString(){
+    toHtml(){
         return `${this.time} ${this.name}: ${this.text}`; 
     }
 } 
@@ -23,7 +23,7 @@ class Messenger{
         this.history.push(new Message(name,this.gettime(),text));
     }
     show_history(){
-        this.history.forEach(item=>console.log(item.toString()));
+        this.history.forEach(item=>console.log(item.toHtml()));
     }
 
 }
