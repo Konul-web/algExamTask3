@@ -1,0 +1,13 @@
+input{
+    padding: 10px;
+    border: 1px solid magenta;
+
+}
+button{
+    padding: 8px;
+    border: 1px solid greenyellow;
+
+}
+button:hover{
+    background-color: green;
+}
